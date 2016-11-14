@@ -1,0 +1,32 @@
+{
+  "name": "morphmix",
+  "version": "1.0.0",
+  "description": "morphdom stuff",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js --css style.css --port 3000 --live",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bowserify": {
+    "transform": [
+      "es2040"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mel-booth/morphmix.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mel-booth/morphmix/issues"
+  },
+  "homepage": "https://github.com/mel-booth/morphmix#readme",
+  "dependencies": {
+    "budo": "^9.2.1",
+    "es2040": "^1.2.4",
+    "hyperscript": "^2.0.2",
+    "morphdom": "^2.2.0"
+  }
+}
